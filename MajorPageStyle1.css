@@ -1,0 +1,211 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+
+body{
+	box-sizing: border-box;
+	background: url(mainpic.JPG) ;
+	background-size: 3200px;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+
+
+.menu-bar{
+
+	background: blue;
+	text-align: center;
+}
+
+.menu-bar ul{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+.menu-bar ul li{
+	width: 200px;
+	margin: 15px;
+	padding:15px ;
+}
+.menu-bar ul li a{
+	text-decoration:none ;
+	color: #fff;
+
+	}
+.active, .menu-bar ul li:hover{
+	background: black;
+	border-radius: 3px;
+}
+
+.submenu1{
+display: none;
+
+
+}
+.menu-bar ul li:hover .submenu1{
+	display: block;
+	position: absolute ;
+	background: lightblue;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.menu-bar ul li:hover .submenu1 ul
+{
+ display: block;
+ margin: 10px ;
+
+}
+
+.menu-bar ul li:hover .submenu1 ul li
+{
+width: 150px;
+padding: 10px;
+border-bottom:1px dotted #fff ;
+background: transparent;
+border-radius: 0;
+text-align: left;
+
+}
+
+.menu-bar ul li:hover .submenu1 ul li:last-child
+{
+ border-bottom: none;
+
+
+}
+.menu-bar ul li:hover .submenu1 ul li a:hover
+{
+ color: lightcoral;
+}
+
+
+.submenu2{
+display: none;
+
+
+}
+.menu-bar ul li:hover .submenu2{
+	display: block;
+	position: absolute ;
+	background: lightblue;
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.menu-bar ul li:hover .submenu2 ul
+{
+ display: block;
+ margin: 10px ;
+
+}
+
+.menu-bar ul li:hover .submenu2 ul li
+{
+width: 150px;
+padding: 10px;
+border-bottom:1px dotted #fff ;
+background: transparent;
+border-radius: 0;
+text-align: left;
+
+}
+
+.menu-bar ul li:hover .submenu2 ul li:last-child
+{
+ border-bottom: none;
+
+
+}
+.menu-bar ul li:hover .submenu2 ul li a:hover
+{
+ color: lightcoral;
+}
+
+.submenu3{
+	display: none;
+	
+	
+	}
+	.menu-bar ul li:hover .submenu3{
+		display: block;
+		position: absolute ;
+		background: lightblue;
+		margin-top: 15px;
+		margin-left: -15px;
+	}
+	.menu-bar ul li:hover .submenu3 ul
+	{
+	 display: block;
+	 margin: 10px ;
+	
+	}
+	
+	.menu-bar ul li:hover .submenu3 ul li
+	{
+	width: 150px;
+	padding: 10px;
+	border-bottom:1px dotted #fff ;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+	
+	}
+	
+	.menu-bar ul li:hover .submenu3 ul li:last-child
+	{
+	 border-bottom: none;
+	
+	
+	}
+	.menu-bar ul li:hover .submenu3 ul li a:hover
+	{
+	 color: lightcoral;
+	}
+
+	.active {
+       font-size: 32;
+	}
+
+	.heading{
+		top:45% ;
+        left: 45%;
+		position: absolute;
+        transform: translate(-50%,-50%);
+		width: 600px;
+
+        padding: 10px;
+
+        color: beige;
+
+       font-weight: bold;
+       font-size: 45px;
+       font-family: sans-serif;
+
+	}
+	
+	.tableone{
+
+		top:60% ;
+        left: 50%;
+		position: absolute;
+        transform: translate(-50%,-50%);
+	}
+
+	table,th,td{
+
+		border: 1px solid black;
+		border-collapse: collapse;
+
+	}
+	th{
+		background-color: lightgoldenrodyellow;
+	}
+	td{
+		background-color: rgb(127, 251, 255);
+	}
+
+	th, td{
+     padding: 7px;
+	}

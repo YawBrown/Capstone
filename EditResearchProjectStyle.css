@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+
+background-position: center;
+background-image: url(mou.PNG);
+background-size: 2700px;
+font-family: sans-serif;
+margin-top: 40px;
+
+}
+.ProductForm{
+width: 800px;
+background-color: black;
+margin: auto;
+color: white;
+padding: 10px 0px 10px 0px;
+text-align: center;
+border-radius: 15px 15px 0px 0px ;
+}
+
+.main{
+	width: 800px;
+	margin: auto;
+}
+ form{
+ 	padding: 10px;
+ 	background-color: grey;
+ 	opacity: 0.8;
+
+ }
+ #name{
+ 	width:100% ;
+    height: 100px;
+ }
+ .name{
+ 	margin-left:25px ;
+ 	margin-top: 30px;
+ 	width: 125px;
+ 	color: black;
+ 	font-size: 18px;
+ 	font-weight: 700;
+ }
+ .PID{
+ 	position: relative;
+ 	left: 200px;
+ 	top: -37px;
+ 	line-height: 40px;
+ 	border-radius: 6px;
+ 	padding: 0 22px;
+ 	font-size: 16px;
+ 	color: black;
+ }
+ .Fu{
+ 	position: relative;
+ 	left: 200px;
+ 	top: -37px;
+ 	line-height: 40px;
+ 	width: 532px;
+ 	border-radius: 6px;
+ 	padding: 0 22px;
+ 	font-size: 16px;
+ 	color: black;
+ }
+ .PL{
+ 	position: relative;
+ 	left: 200px;
+ 	top: -37px;
+ 	width: 125px;
+ 	border-radius: 6px;
+ 	padding: 0 22px;
+ 	font-size: 16px;
+ 	color: black;
+
+ }
+ .NP{
+ 	position: relative;
+ 	left: 200px;
+ 	top: -37px;
+ 	line-height: 40px;
+ 	border-radius: 6px;
+ 	padding: 0 22px;
+ 	font-size: 16px;
+ 	color: black;
+ }
+ .TM{
+ 	position: relative;
+ 	left: 200px;
+ 	top: -37px;
+ 	line-height:40px;
+ 	width: 255px;
+ 	height: 40px;
+ 	border-radius: 6px;
+ 	padding: 0 22px;
+ 	font-size: 16px;
+ 	color: black;
+ 	outline: none;
+ 	overflow: hidden;
+
+
+
+ }
+ input[type="submit"]{
+ 	background-color: #3BAF9F;
+ 	display: block;
+ 	margin: 20px 0px 0px 20px;
+ 	text-align:center ;
+ 	border-radius: 12px;
+ 	border: 2px solid #366473;
+ 	padding:14px 110px;
+ 	outline: none;
+ 	color: white;
+ 	cursor: pointer;
+ 	transition: 0.25px;	
+ }
+ input[type="submit"]:hover{
+ 	background-color: #5390F5;
+
+ }
+
+
+ .floatt{
+    
+	text-align:center;
+	position: relative;
+	left: 100px;
+	height: 25px;
+	width: 50px;
+	background-color: red;    
+	text-decoration:none ;
+	font-weight:bold;  
+	 }
+	
+	 floatt a{
+	text-decoration:none ;
+	font-weight:bold; 
+	}
+

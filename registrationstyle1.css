@@ -1,0 +1,66 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(registerpic.JPG) ;
+	background-size: 2000px;
+	font-family: sans-serif ;
+}
+
+
+.form{
+	position: relative;
+	z-index: 1;
+	background: black;
+	max-width: 360px;
+	margin: 0 auto 100px ;
+	padding: 45px;
+	text-align: center;
+}
+
+p{
+	color: white;
+	font-weight: bold;
+}
+h1{
+	color: white;
+	font-weight: bold;
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 30px;
+}
+input[type="submit"]
+{
+ border: none;
+ outline: none;
+ height: 40px;
+ background: #fb2525;
+ color: #fff;
+ font-size: 18px;
+ border-radius: 20px;
+
+}
+
+input[type="submit"]:hover{
+
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+
+
+}
+
+
+a{
+
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+
+
+}
+
+a:hover{
+	color: orange;
+}
